@@ -1,0 +1,40 @@
+{
+  "users": {
+    "USERID1": {
+      "nombre": "Giovanni",
+      "email": "admin@admin.com",
+      "online": "false"
+    },
+    "USERID2": {
+      "nombre": "Andrade",
+      "email": "andrade@andrade.com",
+      "online": "false"
+    }
+  },
+  "chats": {
+    "USERID1": {
+      "USERID2": {
+        "MESSAGEID1": {
+          "text": "Que ondas men esta es una prueba de ci2",
+          "from": "Giovanni Guzman"
+        },
+        "MESSAGEID2": {
+          "text": "Exelente bro",
+          "from": "Jorge Andrade"
+        }
+      }
+    },
+    "USERID2": {
+      "USERID1": {
+        "MESSAGEID1": {
+          "text": "Que ondas men esta es una prueba de ci2 x2",
+          "from": "Giovanni Guzmanx2"
+        },
+        "MESSAGEID2": {
+          "text": "Exelente brox2",
+          "from": "Jorge Andradex2"
+        }
+      }
+    }
+  }
+}
